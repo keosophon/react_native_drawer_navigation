@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Button, Pressable, StyleSheet } from "react-native";
 
-const Details = ({ navigation }) => {
+const Details = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Details</Text>

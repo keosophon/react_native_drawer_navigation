@@ -1,11 +1,7 @@
 import React from "react";
 import { View, Text, Button, StyleSheet, Pressable } from "react-native";
 
-const Home = ({ navigation }) => {
-  const goDetails = () => {
-    navigation.navigate("Details");
-  };
-
+const Home = () => {
   return (
     <View style={styles.container}>
       <Text>Home</Text>
